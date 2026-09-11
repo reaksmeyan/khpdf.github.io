@@ -145,14 +145,6 @@ button { font-family: inherit; }
   margin: 0 0 22px;
 }
 
-.hero__sub_kh {
-  font-size: 1.05rem;
-  color: var(--ink-soft);
-  max-width: 46ch;
-  margin: 0 0 22px;
-}
-
-
 .hero__features {
   list-style: none;
   margin: 0;
