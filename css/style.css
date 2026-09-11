@@ -84,7 +84,7 @@ button { font-family: inherit; }
   color: var(--ink);
 }
 
-.brand__mark { width: 30px; height: 30px; flex-shrink: 0; }
+.brand__mark { width: 32px; height: 32px; flex-shrink: 0; object-fit: contain; }
 
 .brand__name {
   font-family: var(--font-display);
