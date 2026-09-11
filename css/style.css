@@ -1,7 +1,7 @@
 /* ==========================================================================
    PDF Workbench — design tokens
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Suwannaphum:wght@100;300;400;700;900&display=swap');
+
 :root {
   /* color */
   --ink: #1C2B2E;
@@ -19,7 +19,6 @@
   --brick-tint: #F5E1DB;
 
   /* type */
-	
   --font-display: "Fraunces", Georgia, serif;
   --font-ui: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -85,7 +84,7 @@ button { font-family: inherit; }
   color: var(--ink);
 }
 
-.brand__mark { width: 32px; height: 32px; flex-shrink: 0; object-fit: contain; }
+.brand__mark { width: 30px; height: 30px; flex-shrink: 0; }
 
 .brand__name {
   font-family: var(--font-display);
@@ -145,6 +144,14 @@ button { font-family: inherit; }
   max-width: 46ch;
   margin: 0 0 22px;
 }
+
+.hero__sub_kh {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  max-width: 46ch;
+  margin: 0 0 22px;
+}
+
 
 .hero__features {
   list-style: none;
