@@ -143,6 +143,12 @@ button { font-family: inherit; }
   color: var(--ink-soft);
   max-width: 46ch;
   margin: 0 0 22px;
+.hero__sub_KH {
+	font-family: 'Suwannaphum', serif;
+	font-size: 1.05rem;
+	color: var(--ink-soft);
+	max-width: 46ch;
+	margin: 0 0 22px;
 }
 
 .hero__features {
