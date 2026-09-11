@@ -147,6 +147,14 @@ button { font-family: inherit; }
   letter-spacing: -0.01em;
   margin: 0 0 18px;
 }
+.hero__brandkh {
+  font-family: var(--font-kh);
+  font-weight: 600;
+  font-size: clamp(1.1rem, 3vw, 2.1rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin: 0 0 18px;
+}
 
 .hero__sub {
   font-size: 1.05rem;
