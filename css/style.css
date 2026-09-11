@@ -309,7 +309,7 @@ button { font-family: inherit; }
 
 .page-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
   gap: 18px 16px;
 }
 
@@ -393,16 +393,12 @@ button { font-family: inherit; }
   right: 6px;
   display: flex;
   gap: 4px;
-  opacity: 0;
-  transition: opacity .12s var(--ease);
   z-index: 2;
 }
-.page-card:hover .page-card__ops,
-.page-card:focus-within .page-card__ops { opacity: 1; }
 
 .page-card__op {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   border-radius: 5px;
   border: none;
   background: rgba(255,255,255,.92);
@@ -415,7 +411,7 @@ button { font-family: inherit; }
 }
 .page-card__op:hover { background: var(--denim); color: #fff; }
 .page-card__op.op-danger:hover { background: var(--brick); }
-.page-card__op svg { width: 13px; height: 13px; }
+.page-card__op svg { width: 12px; height: 12px; }
 
 .page-card__footer {
   display: flex;
