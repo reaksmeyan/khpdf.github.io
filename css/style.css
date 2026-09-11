@@ -146,7 +146,7 @@ button { font-family: inherit; }
   margin: 0 0 22px;
 }
 
-.hero__sub_kh {
+.hero__subkh {
   font-family: var(--font-kh);
   font-size: 1.05rem;
   color: var(--ink-soft);
